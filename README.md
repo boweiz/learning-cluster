@@ -86,14 +86,13 @@ Install Ubuntu (recommend 14.04) on each machine. The hard disks of four machine
 It may be hard to create a bootable USB stick on mac OS X. Failures occured for the following two approaches:
 1. burn by command `dd` [[ref]](http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-mac-osx)
 2. burn by UNetbootin [[ref]](http://unetbootin.github.io/) Please update if there are methods that work. A convenient method is to install Ubuntu from CD (the CD is already provided, you can find it near the machines).
+[Here](https://www.youtube.com/watch?v=P5lMuMhmd4Q) is a step-by-step installation video.
 
 In the image above, the three innet machines' hostname are `alpha`, `beta` and `gamma`. You can change them to whatever you like.
 
 During the installation, we need configured network of `losalamos` with eth1 and we don't need to configure the network of three innet machines during the install process. Thus when installing Ubuntu on the three innet machines, it will show "network autoconfiguration failed", just ignore and continue.
 
 You probably want to install the OpenSSH during installation, so that you can then connect to the server using terminal in your own laptops.
-
-[Here](https://www.youtube.com/watch?v=P5lMuMhmd4Q) is a step-by-step installation video.
 
 `losamalos` should have access to the internet already after installation. Using `ping google.com` or `ping + other known IP address` to check the connection.
 
